@@ -1,0 +1,92 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  /* Màu sắc chủ đạo */
+  --color-background: #1a0000;
+  /* Màu đỏ đậm */
+  --color-primary: #ff4500;
+  /* Màu cam đậm */
+  --color-secondary: #8b0000;
+  /* Màu đỏ thẫm */
+  --color-text: #ffffff;
+  /* Màu trắng */
+  --color-accent: #ff6347;
+  /* Màu cà chua */
+
+  /* Các màu bổ trợ */
+  --color-border: #660000;
+  /* Màu viền đậm */
+  --color-hover: #ff7f50;
+  /* Màu khi di chuột */
+}
+
+body {
+  background-color: var(--color-background);
+  color: var(--color-text);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  transition: background-color 0.5s, color 0.5s;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: var(--color-primary);
+}
+
+a {
+  color: var(--color-accent);
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+a:hover {
+  color: var(--color-hover);
+}
+
+button {
+  background-color: var(--color-primary);
+  color: var(--color-text);
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: var(--color-secondary);
+}
+
+.product-container {
+  background-color: var(--color-secondary);
+  border: 1px solid var(--color-border);
+  border-radius: 8px;
+  max-width: 400px;
+  margin: 20px auto;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.text-green-500 {
+  color: #10b981;
+  /* Bạn có thể điều chỉnh màu này theo ý muốn */
+}
+
+.text-red-500 {
+  color: red;
+}
+
+.product-link {
+  color: var(--color-accent);
+}
+
+.product-link:hover {
+  color: var(--color-hover);
+}
