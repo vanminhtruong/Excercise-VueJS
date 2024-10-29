@@ -6,7 +6,7 @@ import { RouterView } from 'vue-router';
   <div>
     <header>
       <div class="wrapper">
-        <h1>7 bài tập đang ở trong các đường link của router, xin hãy truy cập</h1>
+
       </div>
     </header>
     <RouterView/>

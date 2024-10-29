@@ -96,7 +96,7 @@ const register = () => {
         <div class="form-group">
           <label for="rePassword">Nhập Lại Mật Khẩu:</label>
           <input 
-            type="password" 
+            type="password"
             id="rePassword" 
             v-model="rePassword" 
             placeholder="Nhập lại mật khẩu" 

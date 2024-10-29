@@ -6,6 +6,8 @@ import Excercise4 from '@/components/Excercise-4.vue'
 import Excercise5 from '@/components/Excercise-5.vue'
 import Excercise6 from '@/components/Excercise-6.vue'
 import Excercise7 from '@/components/Excercise-7.vue'
+import TodoList from '@/components/TodoList.vue'
+import PS5 from '@/components/PS5.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -44,6 +46,16 @@ const router = createRouter({
       path: '/excercise-7',
       name: 'excercise7',
       component: Excercise7,
+    },
+    {
+      path: '/todo-list',
+      name: 'todoList',
+      component: TodoList,
+    },
+    {
+      path: '/ps5',
+      name: 'ps5',
+      component: PS5,
     },
   ]
 })
